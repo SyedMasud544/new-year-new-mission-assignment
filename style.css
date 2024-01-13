@@ -1,0 +1,186 @@
+* {
+    margin: 50px, 140px;
+    padding: 0;
+}
+
+/* header */
+.banner_text {
+    color: white;
+    text-align: center;
+    margin-top: 230px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.banner_small_text {
+    font-family: Merriweather;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.banner_big_text {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+/* main */
+.off_section {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.off {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.off_text {
+    color: #F00;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.catagori {
+    color: #070211;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.newyear_image {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* .midnight_img {
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+} */
+.image_mid {
+    display: flex;
+    justify-content: center;
+
+}
+
+.midnight_text {
+    margin-left: 400px;
+}
+
+.welcome {
+    color: #9c5d5d;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+
+.section_three,
+.new_park_sec {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+span {
+    color: #F00;
+}
+
+.join_now_btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+
+}
+
+.new_park_sec {
+    padding-top: 100px;
+    align-items: center;
+}
+
+.section_three {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.187), white);
+    height: 482px;
+    justify-content: center;
+    margin: 140px 140px;
+}
+
+.section_four {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.187), white);
+    height: 482px;
+    justify-content: center;
+    margin: 140px 140px;
+}
+
+.section_four_content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.section_four_content>h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section_four_content>img {
+    padding-top: 10px;
+}
+
+.section_four_content>.subcribe_btn {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: #070211;
+    height: 609px;
+    flex-shrink: 0;
+    padding-top: 50px;
+
+}
+.footre_text{
+    display: flex;
+}
